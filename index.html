@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+        <div class="logo">
+            <h1>Menu Responsivo</h1>
+        </div>
+        <button onclick="abrirMenu()">&#9776;</button>
+        <ul id="botoesMenu">
+            <a href="#perfil">
+                <li>
+                    <p>Perfil</p>
+                </li>
+            </a>
+            <a href="#carrinho">
+                <li>
+                    <p>Carrinho</p>
+                </li>
+            </a>
+            <a href="#favoritos">
+                <li>
+                    <p>Favoritos</p>
+                </li>
+            </a>
+            <a href="#comprados">
+                <li>
+                    <p>Comprados</p>
+                </li>
+            </a>
+            <a href="#sair">
+                <li>
+                    <p>Sair</p>
+                </li>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="content" id="perfil" style="background-color: red"> 
+        <div class="height-nav"></div>
+        Perfil 
+    </div>
+    <div class="content" id="carrinho" style="background-color: orange"> 
+        <div class="height-nav"></div>
+        Carrinho 
+    </div>
+    <div class="content" id="favoritos" style="background-color: yellow"> 
+        <div class="height-nav"></div>
+        Favoritos 
+    </div>
+    <div class="content" id="comprados" style="background-color: green"> 
+        <div class="height-nav"></div>
+        Comprados 
+    </div>
+    <div class="content" id="sair" style="background-color: blue"> 
+        <div class="height-nav"></div>
+        Sair 
+    </div>
+
+    <script src="mobile-navbar.js"></script>
+  </body>
+</html>
