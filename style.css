@@ -20,11 +20,12 @@ ul {
 nav {
   background-color: #161616;
   padding: 0 20px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   width: calc(100% - 40px);
   top: 0;
+  width: 100%;
 }
 
 h1,
@@ -36,7 +37,10 @@ nav,
 ul {
   display: flex;
   flex-direction: row;
-  width: 100%;
+}
+
+ul{
+  width: auto;
 }
 
 li {
